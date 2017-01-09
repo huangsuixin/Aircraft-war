@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Aircraft war</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/player.js">
+    <link rel="stylesheet" href="js/main.js">
+</head>
+<body>
+<audio src="music/BGM.mp3" autoplay="autoplay" loop="loop" style="display: none;"></audio>
+<div class="game-box">
+    <div class="grade-box">
+        <span>得分：</span>
+        <p id="grade">0</p>
+    </div>
+    <img class="bg" src="img/bg.jpg"/>
+    <img src="img/plane.png" id="player"/>
+    <img src="img/enemy.png" class="enemy"/>
+</div>
+
+<script src="js/bullet.js"></script>
+<script src="js/player.js"></script>
+<script src="js/enemy.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
